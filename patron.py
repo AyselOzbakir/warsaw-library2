@@ -10,7 +10,7 @@ class Patron(Person):
             self.borrowed_books.append(book)
             book.available = False
         else:
-            print(f"Book '{book.title}' is not available.")
+            print(f"Book '{book.title}' is not available. ")
 
     def return_book(self, book):
         if book in self.borrowed_books:
