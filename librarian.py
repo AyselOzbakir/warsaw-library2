@@ -17,4 +17,4 @@ class Librarian(Person):
         library.remove_patron(patron)
 
     def __str__(self):
-        return f"Librarian(Name: {self.name}, ID: {self.person_id})"
+        return f"Librarian(Name: {self.name}, ID: {self.person_id} )"
