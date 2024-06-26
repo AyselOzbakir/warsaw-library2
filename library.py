@@ -11,7 +11,7 @@ class Library:
         if book in self.books:
             self.books.remove(book)
         else:
-            print(f"Book '{book.title}' not found in the library.")
+            print(f"Book '{book.title}' not found in the library")
 
     def add_patron(self, patron):
         self.patrons.append(patron)
